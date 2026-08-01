@@ -120,3 +120,4 @@ Dica Final: Se o PC estiver travando ou o hardware estiver pesado, use o Ctrl+Al
 - hyprland: .config/hypr/hyprland.lua
 - mako: .config/mako/config
 - hyprpolkitagente: systemctl --user enable --now hyprpolkitagent.service
+- sudo usermod -aG video,i2c,input rennelou
