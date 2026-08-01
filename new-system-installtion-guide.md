@@ -113,3 +113,10 @@ bind = SUPER, E, exec, thunar
     Ambiente de Pesquisa: Sempre que você for pesquisar, crie o flake.nix e use nix develop dentro da pasta do projeto. O sistema permanecerá imaculado para o uso diário dela.
 
 Dica Final: Se o PC estiver travando ou o hardware estiver pesado, use o Ctrl+Alt+F2 para ir a um terminal puro, logar e verificar o uso de RAM com o comando free -h. O Arch com esse setup deve consumir menos de 500MB de RAM logo após o boot.
+
+
+## 6. Config
+
+- hyprland: .config/hypr/hyprland.lua
+- mako: .config/mako/config
+- hyprpolkitagente: systemctl --user enable --now hyprpolkitagent.service
